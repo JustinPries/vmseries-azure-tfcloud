@@ -1,7 +1,7 @@
 # --- GENERAL --- #
-location            = "North Europe"
-resource_group_name = "transit-vnet-common"
-name_prefix         = "example-"
+location            = "us-east"
+resource_group_name = "Terraform"
+name_prefix         = "Priest-"
 tags = {
   "CreatedBy"   = "Palo Alto Networks"
   "CreatedWith" = "Terraform"
