@@ -6,7 +6,7 @@ variable "tags" {
 }
 
 variable "location" {
-  description = "The Azure region to use."
+  description = "us-east"
   type        = string
 }
 
