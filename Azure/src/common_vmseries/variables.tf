@@ -6,7 +6,7 @@ variable "tags" {
 }
 
 variable "location" {
-  description = "us-east"
+  description = "The Azure region to use."
   type        = string
 }
 
@@ -36,7 +36,7 @@ variable "create_resource_group" {
 }
 
 variable "resource_group_name" {
-  description = "Terraform"
+  description = "Name of the Resource Group."
   type        = string
 }
 
