@@ -1,3 +1,9 @@
+!!!!!!!!!This Repo is a Clone of the Original Palo Alto Networks Repo to deploy. Although I cannot take credit for the code I can absolutely say I have used this as a hands on way to deploy VM Series Firewalls to Azure. This has been a great learning experience and I highly recommend you follow Calvin Remsburg on youtube to get a handson walkthrough on how to use this repo.!!!!!!!!!!!!!!!!!
+
+
+
+
+
 > [!WARNING]
 > This repository is now considered archived, and all future development will take place at our new location. For more details see https://github.com/PaloAltoNetworks/terraform-azurerm-vmseries-modules/issues/236
 
