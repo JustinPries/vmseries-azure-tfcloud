@@ -68,7 +68,7 @@ resource "azurerm_virtual_machine" "this" {
     publisher = var.custom_image_id == null ? var.img_publisher : null
     offer     = var.custom_image_id == null ? var.img_offer : null
     sku       = var.custom_image_id == null ? var.img_sku : null
-    version   = var.custom_image_id == null ? var.img_version : null
+    version   = "10.1.1406"
   }
 
   dynamic "plan" {

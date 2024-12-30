@@ -139,7 +139,7 @@ variable "vm_size" {
 
 variable "custom_image_id" {
   description = "Absolute ID of your own Custom Image to be used for creating new VM-Series. If set, the `username`, `password`, `img_version`, `img_publisher`, `img_offer`, `img_sku` inputs are all ignored (these are used only for published images, not custom ones). The Custom Image is expected to contain PAN-OS software."
-  default     = "paloaltonetworks:vmseries-flex:byol:10.1.1406"
+  default     = "null"
   type        = string
 }
 
