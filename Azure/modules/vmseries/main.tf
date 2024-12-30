@@ -64,7 +64,7 @@ resource "azurerm_virtual_machine" "this" {
   network_interface_ids = [for v in var.interfaces : azurerm_network_interface.this[v.name].id]
 
   storage_image_reference {
-    id        = var.custom_image_id == null ? var.custom_image_id : null
+    id        = var.custom_image_id == null
     publisher = var.custom_image_id == null ? var.img_publisher : null
     offer     = var.custom_image_id == null ? var.img_offer : null
     sku       = var.custom_image_id == null ? var.img_sku : null
