@@ -137,12 +137,6 @@ variable "vm_size" {
   type        = string
 }
 
-variable "custom_image_id" {
-  description = "Absolute ID of your own Custom Image to be used for creating new VM-Series. If set, the `username`, `password`, `img_version`, `img_publisher`, `img_offer`, `img_sku` inputs are all ignored (these are used only for published images, not custom ones). The Custom Image is expected to contain PAN-OS software."
-  default     = "/providers/paloaltonetworks/paloaltonetworks:vmseries-flex:byol:10.1.0"
-  type        = string
-}
-
 variable "enable_plan" {
   description = "Enable usage of the Offer/Plan on Azure Marketplace. Even plan sku \"byol\", which means \"bring your own license\", still requires accepting on the Marketplace (as of 2021). Can be set to `false` when using a custom image."
   default     = true
