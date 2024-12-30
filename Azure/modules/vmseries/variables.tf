@@ -139,7 +139,7 @@ variable "vm_size" {
 
 variable "custom_image_id" {
   description = "Absolute ID of your own Custom Image to be used for creating new VM-Series. If set, the `username`, `password`, `img_version`, `img_publisher`, `img_offer`, `img_sku` inputs are all ignored (these are used only for published images, not custom ones). The Custom Image is expected to contain PAN-OS software."
-  default     = null
+  default     = "10.2.10"
   type        = string
 }
 
@@ -167,7 +167,7 @@ variable "img_sku" {
 
 variable "img_version" {
   description = "VM-series PAN-OS version - list available for a default `img_offer` with `az vm image list -o table --publisher paloaltonetworks --offer vmseries-flex --all`"
-  default     = "10.2.0"
+  default     = "10.1.0"
   type        = string
 }
 
