@@ -1,5 +1,5 @@
 # --- GENERAL --- #
-location            = "us-east"
+location            = "eastus"
 resource_group_name = "Terraform"
 name_prefix         = "Priest-"
 tags = {
