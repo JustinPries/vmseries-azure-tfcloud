@@ -150,7 +150,7 @@ load_balancers = {
 
 # # --- VMSERIES PART --- #
 vmseries_version = "10.1.0"
-vmseries_vm_size = "Standard_DS3_v2"
+vmseries_vm_size = "Standard_DS4_v2"
 vmseries = {
   "fw-1" = {
     name              = "firewall01"
